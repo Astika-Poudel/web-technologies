@@ -1,0 +1,70 @@
+*{
+    margin:  0;
+    padding: 0;
+ font-family: solway;
+}
+
+.navigation {
+    height: 100vh;
+    width: 100%;
+    background-image: url(wal.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.logo{
+    font-size: 28px;
+    color: #50230d;
+
+}
+span{
+    color: #443937;
+}
+
+nav  {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top:40px ;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-weight: bold;
+    padding: 10px 10px;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+
+}
+
+nav ul li a {
+    text-decoration: none;
+    color:  #858e76;
+    padding: 40px 10 px;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    
+    color:  #384429;
+
+}
+
+button{
+    background-color: white;
+    border-radius: 100px ;
+    cursor: pointer;
+    font-size: 18px;
+    color: black;
+    padding: 10px 10px;
+    font-weight: bold;
+
+
+}
+
+button:hover{
+    background-color: bisque;
+}
+
